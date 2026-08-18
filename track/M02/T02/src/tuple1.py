@@ -1,0 +1,17 @@
+# Read the course details
+course_name = input()
+current_week = input()
+course_status = input()
+
+# Create the original tuple
+course_details = (course_name, current_week, course_status)
+print(course_details)
+
+# Read the updated week
+updated_week = input()
+
+# Create and assign a new tuple
+course_details = (course_name, updated_week, course_status)
+
+# Display the updated tuple
+print(course_details)
